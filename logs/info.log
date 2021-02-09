@@ -1,0 +1,53 @@
+[21:18:33:327] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ calculate page loads properly  Testing begins ------------------
+[21:18:47:207] [INFO] - com.calculator.basic.Log.info(Log.java:21) - AppUrl is https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
+[21:18:47:214] [INFO] - com.calculator.basic.Log.info(Log.java:21) - ImplicitlyWait is set to 30
+[21:18:47:571] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ Select Single and select Home to live in  Testing begins ------------------
+[21:18:48:096] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Select application type - Done. The application type is Single
+[21:18:48:098] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Select numberOfdependants - Done. The numberOfdependants is 0
+[21:18:48:098] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Select home to live in - Done.
+[21:18:48:103] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ input yourIncome and yourOtherIncome  Testing begins ------------------
+[21:18:50:294] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Input yourIncome and yourOtherIncome - Done.
+[21:18:50:301] [INFO] - com.calculator.basic.Log.info(Log.java:21) - YourIncome is set to $80000
+[21:18:50:302] [INFO] - com.calculator.basic.Log.info(Log.java:21) - YourOtherIncome is set to $10000
+[21:18:50:306] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ input livingExpense and input homeLoanRepayments and input otherLoanRepayments  Testing begins ------------------
+[21:18:52:644] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Input livingExpense,homeLoanRepayments and otherLoanRepayments - Done.
+[21:18:52:646] [INFO] - com.calculator.basic.Log.info(Log.java:21) - livingExpense is set to $500
+[21:18:52:647] [INFO] - com.calculator.basic.Log.info(Log.java:21) - homeLoanRepayments is set to $0
+[21:18:52:647] [INFO] - com.calculator.basic.Log.info(Log.java:21) - otherLoanRepayments is set to $100
+[21:18:52:653] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ input_OtherCommitments  Testing begins ------------------
+[21:18:53:041] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Input OtherCommitments - Done.
+[21:18:53:042] [INFO] - com.calculator.basic.Log.info(Log.java:21) - OtherCommitments is set to $0
+[21:18:53:046] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ input_TotalCreditCardLimits  Testing begins ------------------
+[21:18:53:333] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Input TotalCreditCardLimits - Done.
+[21:18:53:334] [INFO] - com.calculator.basic.Log.info(Log.java:21) - TotalCreditCardLimits is set to $10000
+[21:18:53:337] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ press_WorkOut_button  Testing begins ------------------
+[21:18:53:720] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Click WorkOut button.
+[21:18:58:722] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ BorrowResult should_display  Testing begins ------------------
+[21:18:58:765] [INFO] - com.calculator.basic.Log.info(Log.java:21) - expectBorrowResult is $500000
+[21:18:58:765] [INFO] - com.calculator.basic.Log.info(Log.java:21) - actualBorrowResult is $500000
+[21:18:58:766] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Compare expectBorrowResult and actualBorrowResult - Done.
+[21:18:58:767] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ startover_button_avaliable  Testing begins ------------------
+[21:18:58:818] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Check StartOver button's availability. - Done
+[21:18:58:818] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Startover Button's availability is true
+[21:18:58:820] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ workout_button_invisible  Testing begins ------------------
+[21:18:58:857] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Check WorkOut button's availability. - Done
+[21:18:58:857] [INFO] - com.calculator.basic.Log.info(Log.java:21) - WorkOut Button's availability is false
+[21:18:58:860] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ i_click_StartOver_button  Testing begins ------------------
+[21:18:59:075] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Click StartOver button to clear all fields. - Done
+[21:19:04:079] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ all_fields_cleared  Testing begins ------------------
+[21:19:04:106] [INFO] - com.calculator.basic.Log.info(Log.java:21) - ApplicationTypeSingleButton's selection is false
+[21:19:04:171] [INFO] - com.calculator.basic.Log.info(Log.java:21) - NumberOfdependantsDropDown's selection is 0
+[21:19:04:200] [INFO] - com.calculator.basic.Log.info(Log.java:21) - PropertyTypeHomeButton's selection is false
+[21:19:04:227] [INFO] - com.calculator.basic.Log.info(Log.java:21) - YourIncome's current value is 
+[21:19:04:257] [INFO] - com.calculator.basic.Log.info(Log.java:21) - YourOtherIncome's current value is 
+[21:19:04:294] [INFO] - com.calculator.basic.Log.info(Log.java:21) - livingExpense's current value is 
+[21:19:04:323] [INFO] - com.calculator.basic.Log.info(Log.java:21) - homeLoanRepayments' current value is 
+[21:19:04:349] [INFO] - com.calculator.basic.Log.info(Log.java:21) - otherLoanRepayments' current value is 
+[21:19:04:382] [INFO] - com.calculator.basic.Log.info(Log.java:21) - otherCommitment's current value is 
+[21:19:04:406] [INFO] - com.calculator.basic.Log.info(Log.java:21) - totalCreditCardLimits' current value is 
+[21:19:04:407] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ workout_button_is_avaliable  Testing begins ------------------
+[21:19:04:443] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Check if WorkOut button is available after clicked StartOver button.- Done
+[21:19:04:443] [INFO] - com.calculator.basic.Log.info(Log.java:21) - The WorkOut button's availability is true
+[21:19:04:444] [INFO] - com.calculator.basic.Log.startTestCase(Log.java:11) - ------------------ startover_button_invisible  Testing begins ------------------
+[21:19:04:472] [INFO] - com.calculator.basic.Log.info(Log.java:21) - Check if StartOver button is available after clicked StartOver button.- Done
+[21:19:04:473] [INFO] - com.calculator.basic.Log.info(Log.java:21) - The StartOver button's availability is false
